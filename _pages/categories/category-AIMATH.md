@@ -1,5 +1,5 @@
 ---
-title: "인공지능을 위한 수학!!"
+title: "Math for AI!!"
 layout: archive
 permalink: categories/aimath
 author_profile: true

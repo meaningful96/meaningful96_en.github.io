@@ -1,5 +1,5 @@
 ---
-title: "Graph Theory"
+title: "Graph Paper Review"
 layout: archive
 permalink: categories/gr
 author_profile: true

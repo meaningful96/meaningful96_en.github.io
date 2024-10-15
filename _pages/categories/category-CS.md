@@ -1,5 +1,5 @@
----
-title: "컴퓨터 공학"
+--
+title: "Computer Science"
 layout: archive
 permalink: categories/cs
 author_profile: true

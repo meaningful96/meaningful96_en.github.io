@@ -1,5 +1,5 @@
 ---
-title: "자연어 처리(NLP)"
+title: "Natural Language Processing"
 layout: archive
 permalink: categories/nlp
 author_profile: true

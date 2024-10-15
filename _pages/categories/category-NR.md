@@ -1,5 +1,5 @@
 ---
-title: "NLP"
+title: "NLP Paper Review"
 layout: archive
 permalink: categories/nr
 author_profile: true
