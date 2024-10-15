@@ -1,1 +1,2 @@
-# meaningful96_en.github.io
+## Korean Version Blog
+<https://meaningful96.github.io>
