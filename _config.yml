@@ -15,15 +15,15 @@
 minimal_mistakes_skin    : "dark" # "default"  "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
  
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-EN"
 title                    : " Meaningful AI"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Meaningful96"
 description              : "Blog for Studying"
-url                      : "https://meaningful96.github.io"
+url                      : "https://meaningful96_en.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "meaningful96/meaningful96.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "meaningful96/meaningful96_en.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
