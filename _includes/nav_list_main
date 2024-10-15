@@ -11,20 +11,6 @@
         <span class="nav__sub-title">C/C++/Pyhthon</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C ++({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "py" %}
-                        <li><a href="/categories/py" class="">Python({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "Pytorch" %}
                         <li><a href="/categories/pytorch" class="">Pytorch({{category[1].size}})</a></li>
                     {% endif %}
@@ -37,14 +23,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>            
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Baekjoon" %}
-                        <li><a href="/categories/baekjoon" class="">백준({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>            
-
         <span class="nav__sub-title">Computer Science</span>
             <ul>
                 {% for category in site.categories %}
@@ -70,7 +48,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CS" %}
-                        <li><a href="/categories/cs" class="">컴퓨터 공학({{category[1].size}})</a></li>
+                        <li><a href="/categories/cs" class="">Computer Science({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -93,14 +71,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Graph" %}
-                        <li><a href="/categories/graph" class="">그래프 AI({{category[1].size}})</a></li>
+                        <li><a href="/categories/graph" class="">Graph AI({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "NLP" %}
-                        <li><a href="/categories/nlp" class="">자연어 처리({{category[1].size}})</a></li>
+                        <li><a href="/categories/nlp" class="">NLP({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -120,29 +98,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "RR" %}
-                        <li><a href="/categories/rr" class="">Recommender System({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>        
 
-        <span class="nav__sub-title">Else</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ERR" %}
-                        <li><a href="/categories/err" class="">Error Analysis({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}            
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Etc" %}
-                        <li><a href="/categories/etc" class="">Etc({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}            
-            </ul>
       </li>
   </ul>
 </nav>
